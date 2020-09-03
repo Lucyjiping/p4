@@ -9,7 +9,7 @@ The functions identifying packets by length and time are added by us.
    make run
    ```
    This will:
-   * compile `basic.p4`, and
+   * compile `sdn.p4`, and
    * start the pod-topo in Mininet and configure all switches with
    the appropriate P4 program + table entries, and
    * configure all hosts with the commands listed in
