@@ -27,7 +27,7 @@ The functions identifying packets by length and time are added by us.
   ```bash
    ./send.py 10.0.2.2 "p4 is cool!"
   ```
-5. We can see that in h1's XTerm, the IP.tos=0, while in h2's XTerm, the IP.tos is set to different value according to the length and packet interval time. 
+5. We can see that in h1's XTerm, the IP.tos=0, while in h2's XTerm, the IP.tos is set to different value according to packet length and packet interval time. 
 
 6. Type `exit` to leave each xterm and the Mininet command line.
    Then, to stop mininet:
