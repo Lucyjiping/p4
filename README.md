@@ -19,7 +19,7 @@ The functions identifying packets by length and time are added by us.
    ```bash
    mininet> xterm h1 h2
    ```
-3. In h2's XTerm, start the server that captures packet
+3. In h2's XTerm, start the server to receive packets
   ```bash
    ./receive.py
   ```
