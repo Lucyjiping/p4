@@ -115,13 +115,13 @@ control MyIngress(inout headers hdr,
     
     apply {
 	if(hdr.ipv4.isValid()){
-		if( standard_metadata.packet_length <= 56) {
+		if( standard_metadata.packet_length <= 59) {
 			set_tos(2);
 		}
-		else if(standard_metadata.packet_length < 59){
+		else if(standard_metadata.packet_length < 64){
 			set_tos(4);
 		}else {
-			set_tos(15);
+			set_tos(6);
 		}
 
         	ipv4_lpm.apply();

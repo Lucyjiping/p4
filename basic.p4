@@ -1,11 +1,7 @@
-/* -*- P4_16 -*- */
 #include <core.p4>
 #include <v1model.p4>
 
 const bit<16> TYPE_IPV4 = 0x800;
-
-register<bit<48>>(5) last_packet_register;
-
 /*************************************************************************
 *********************** H E A D E R S  ***********************************
 *************************************************************************/
@@ -36,7 +32,7 @@ header ipv4_t {
 }
 
 struct metadata {
-    /* empty */
+
 }
 
 struct headers {
@@ -55,7 +51,6 @@ parser MyParser(packet_in packet,
                 inout standard_metadata_t standard_metadata) {
 
     state start {
-        /* TODO: add parser logic */
         transition parse_ethernet;
     }
 
@@ -90,14 +85,11 @@ control MyVerifyChecksum(inout headers hdr, inout metadata meta) {
 control MyIngress(inout headers hdr,
                   inout metadata meta,
                   inout standard_metadata_t standard_metadata) {
-
-   
     action drop() {
         mark_to_drop(standard_metadata);
     }
     
     action ipv4_forward(macAddr_t dstAddr, egressSpec_t port) {
-        /* TODO: fill out code in action body */
 	standard_metadata.egress_spec = port;
 	hdr.ethernet.srcAddr = hdr.ethernet.dstAddr;
 	hdr.ethernet.dstAddr = dstAddr;
@@ -107,16 +99,6 @@ control MyIngress(inout headers hdr,
     action set_tos(bit<8> tos){
 	hdr.ipv4.diffserv = tos;
     }
-
-  /*  action get_inter_packet_gap(bit<14> flow_id) {
-
-	bit<48> last_pkt_ts;
-	last_seen.read(last_pkt_ts, (bit<32>)flow_id);
-	//interval = standard_metadata.ingress_global_timestamp - last_pkt_ts;
-
-	last_seen.write((bit<32>)flow_id, standard_metadata.ingress_global_timestamp);
-	}
- */
     
     table ipv4_lpm {
         key = {
@@ -132,35 +114,16 @@ control MyIngress(inout headers hdr,
     }
     
     apply {
-        /* TODO: fix ingress control logic
-         *  - ipv4_lpm should be applied only when IPv4 header is valid
-         */
 	if(hdr.ipv4.isValid()){
-		/*if(standard_metadata.packet_length == 56) {
-		*	set_tos(4);
-		*}
-		*/
-		bit<48> last_packet_time;
-		bit<48> packet_interval_time;
-		last_packet_register.read(last_packet_time,(bit<32>)1);
-		packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
-		last_packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
-		if(packet_interval_time <= 1000) {
-			set_tos(0);
-		} 
-		else if(packet_interval_time <= 100000){
-			set_tos(4);
+		if( standard_metadata.packet_length <= 59) {
+			set_tos(2);
 		}
-		else if(packet_interval_time <= 1000000){
-			set_tos(5);
-		} 
-		else if(packet_interval_time <= 10000000){
+		else if(standard_metadata.packet_length < 64){
+			set_tos(4);
+		}else {
 			set_tos(6);
 		}
-		else {
-			set_tos(10);
-		}
-		
+
         	ipv4_lpm.apply();
 	}
     }
@@ -207,7 +170,6 @@ control MyComputeChecksum(inout headers hdr, inout metadata meta) {
 
 control MyDeparser(packet_out packet, in headers hdr) {
     apply {
-        /* TODO: add deparser logic */
 	packet.emit(hdr.ethernet);
 	packet.emit(hdr.ipv4);
     }

@@ -149,16 +149,16 @@ control MyIngress(inout headers hdr,
 			set_tos(0);
 		} 
 		else if(packet_interval_time <= 100000){
-			set_tos(4);
+			set_tos(2);
 		}
 		else if(packet_interval_time <= 1000000){
-			set_tos(5);
+			set_tos(4);
 		} 
 		else if(packet_interval_time <= 10000000){
 			set_tos(6);
 		}
 		else {
-			set_tos(10);
+			set_tos(15);
 		}
 		
         	ipv4_lpm.apply();
