@@ -4,7 +4,7 @@
 
 const bit<16> TYPE_IPV4 = 0x800;
 
-register<bit<48>>(16384) last_packet_register;
+register<bit<48>>(5) last_packet_register;
 
 /*************************************************************************
 *********************** H E A D E R S  ***********************************
