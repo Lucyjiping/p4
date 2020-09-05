@@ -125,22 +125,25 @@ control MyIngress(inout headers hdr,
     apply {
 
 	if(hdr.ipv4.isValid()){
-		bit<48> last_packet_time;
-		bit<48> packet_interval_time;
+		
 		
 	/* check small packet interval time and set tos */	
 	if( standard_metadata.packet_length < 60) {
 			if( standard_metadata.packet_length > 58){ /* It is a small packet */
-				last_packet_register.read(last_packet_time,(bit<32>)1); /* Get last small packet time */
-				if(last_packet_time < 10){ /* This is the first packet */
-					last_packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
-					set_tos(1);
-				} 
-				else { /* This is not the first packet */
-					packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
+
+				bit<48> last_packet_time;
+				bit<48> packet_interval_time;
+				//bit<48>	packet_index;
+				//last_packet_register.read(packet_index,(bit<32>)1); 
+				//packet_index = packet_index + 1;
+				//last_packet_register.write(1,packet_index); 
+
+				last_packet_register.read(last_packet_time,(bit<32>)0); /* Get last small packet time */
+				last_packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
+
+				packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
 					if(packet_interval_time < 200000){ /* packet interval is 0.1s  */
 						if(packet_interval_time >= 100000){ 
-							last_packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
 							set_tos(1);
 						}
 					}
@@ -149,31 +152,28 @@ control MyIngress(inout headers hdr,
 						packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
 						if(packet_interval_time < 200000){ 
 							if(packet_interval_time > 100000){
-								last_packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
 								set_tos(1);
 							}
 						}
 					}
-				}
+				
 			}
 	}
 	/* Check large packet interval time and set tos */
 	else if(standard_metadata.packet_length < 72){ 
 		if(standard_metadata.packet_length > 70){
-			last_packet_register.read(last_packet_time,(bit<32>)2); /* Get last large packet time */
-			if(last_packet_time < 10){ /* This is the first large packet */
-					last_packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
-					set_tos(3);
-			} 
-			else{
-				packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
-				if(packet_interval_time < 400000){ /* packet interval is 0.1s  */
-						if(packet_interval_time >= 300000){ 
-							last_packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
-							set_tos(3);
-						}
-				}
-			}
+			bit<48> last_large_pkt_time;
+			bit<48> large_pkt_interval_time;
+			last_packet_register.read(last_large_pkt_time,(bit<32>)2); /* Get last large packet time */
+			last_packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
+			large_pkt_interval_time = standard_metadata.ingress_global_timestamp - last_large_pkt_time;
+			if(large_pkt_interval_time < 500000){ /* packet interval is 0.3s  */
+						
+				if(large_pkt_interval_time >= 300000){ 
+						set_tos(3);
+					}
+					
+			}	
 
 		}		
 	}
