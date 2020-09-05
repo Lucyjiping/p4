@@ -1,7 +1,11 @@
+/* -*- P4_16 -*- */
 #include <core.p4>
 #include <v1model.p4>
 
 const bit<16> TYPE_IPV4 = 0x800;
+
+register<bit<48>>(5) last_packet_register;
+
 /*************************************************************************
 *********************** H E A D E R S  ***********************************
 *************************************************************************/
@@ -32,7 +36,7 @@ header ipv4_t {
 }
 
 struct metadata {
-
+    /* empty */
 }
 
 struct headers {
@@ -51,6 +55,7 @@ parser MyParser(packet_in packet,
                 inout standard_metadata_t standard_metadata) {
 
     state start {
+  
         transition parse_ethernet;
     }
 
@@ -85,11 +90,14 @@ control MyVerifyChecksum(inout headers hdr, inout metadata meta) {
 control MyIngress(inout headers hdr,
                   inout metadata meta,
                   inout standard_metadata_t standard_metadata) {
+
+   
     action drop() {
         mark_to_drop(standard_metadata);
     }
     
     action ipv4_forward(macAddr_t dstAddr, egressSpec_t port) {
+    
 	standard_metadata.egress_spec = port;
 	hdr.ethernet.srcAddr = hdr.ethernet.dstAddr;
 	hdr.ethernet.dstAddr = dstAddr;
@@ -99,6 +107,7 @@ control MyIngress(inout headers hdr,
     action set_tos(bit<8> tos){
 	hdr.ipv4.diffserv = tos;
     }
+
     
     table ipv4_lpm {
         key = {
@@ -114,16 +123,61 @@ control MyIngress(inout headers hdr,
     }
     
     apply {
-	if(hdr.ipv4.isValid()){
-		if( standard_metadata.packet_length <= 59) {
-			set_tos(2);
-		}
-		else if(standard_metadata.packet_length < 64){
-			set_tos(4);
-		}else {
-			set_tos(6);
-		}
 
+	if(hdr.ipv4.isValid()){
+		
+		
+	/* check small packet interval time and set tos */	
+	if( standard_metadata.packet_length < 60) {
+			if( standard_metadata.packet_length > 58){ /* It is a small packet */
+
+				bit<48> last_packet_time;
+				bit<48> packet_interval_time;
+				//bit<48>	packet_index;
+				//last_packet_register.read(packet_index,(bit<32>)1); 
+				//packet_index = packet_index + 1;
+				//last_packet_register.write(1,packet_index); 
+
+				last_packet_register.read(last_packet_time,(bit<32>)0); /* Get last small packet time */
+				last_packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
+
+				packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
+					if(packet_interval_time < 200000){ /* packet interval is 0.1s  */
+						if(packet_interval_time >= 100000){ 
+							set_tos(1);
+						}
+					}
+					else { /* The interval time to last large packet is 0.2s  */
+						last_packet_register.read(last_packet_time,(bit<32>)2); /* Get last large packet time */	
+						packet_interval_time = standard_metadata.ingress_global_timestamp - last_packet_time;
+						if(packet_interval_time < 200000){ 
+							if(packet_interval_time > 100000){
+								set_tos(1);
+							}
+						}
+					}
+				
+			}
+	}
+	/* Check large packet interval time and set tos */
+	else if(standard_metadata.packet_length < 72){ 
+		if(standard_metadata.packet_length > 70){
+			bit<48> last_large_pkt_time;
+			bit<48> large_pkt_interval_time;
+			last_packet_register.read(last_large_pkt_time,(bit<32>)2); /* Get last large packet time */
+			last_packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
+			large_pkt_interval_time = standard_metadata.ingress_global_timestamp - last_large_pkt_time;
+			if(large_pkt_interval_time < 500000){ /* packet interval is 0.3s  */
+						
+				if(large_pkt_interval_time >= 300000){ 
+						set_tos(3);
+					}
+					
+			}	
+
+		}		
+	}
+		
         	ipv4_lpm.apply();
 	}
     }
@@ -170,6 +224,7 @@ control MyComputeChecksum(inout headers hdr, inout metadata meta) {
 
 control MyDeparser(packet_out packet, in headers hdr) {
     apply {
+        /* TODO: add deparser logic */
 	packet.emit(hdr.ethernet);
 	packet.emit(hdr.ipv4);
     }
@@ -187,4 +242,5 @@ MyEgress(),
 MyComputeChecksum(),
 MyDeparser()
 ) main;
+
 
