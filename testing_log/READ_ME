@@ -1,0 +1,12 @@
+
+host1_send_0.1s.log:  sending packets log from host1 every 0.1s.
+
+host2_receive_0.1s.log: host2 received packets from host1_send_0.1s.log.
+
+host2_tos_0.1s.log: tos value filtered from host2_receive_0.1s.log.
+
+host1_send_0.03.log: sending packets log from host1 every 0.03s.
+
+host2_receive_0.03s.log; received packets at host2 from host1_send_0.03s.log.
+
+host2_tos_0.03s.log: tos value filtered from host2_receive_0.03s.log
