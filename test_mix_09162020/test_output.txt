@@ -5,7 +5,7 @@ Small packets:
 	Correct classified ratio: 91.67%
 
 
-Bit packets:
+Big packets:
 	Total packet number:  30
 	Correctly classified packet number: 27
 	Correct classified ratio: 90.00% 
@@ -24,7 +24,7 @@ Small packets:
 	Correct classified ratio: 100.00%
 
 
-Bit packets:
+Big packets:
 	Total packet number:  30
 	Correctly classified packet number: 30
 	Correct classified ratio: 100.00% 
