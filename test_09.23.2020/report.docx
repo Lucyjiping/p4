@@ -1,0 +1,67 @@
+		Testing Report without Mixed Packets 
+Data file name: h2_100_tos.log 
+Small packets: 
+	Total packet number:  200 
+	Correctly classified packet number: 200
+	Correct classified ratio: 100.00%
+
+Big packets:
+	Total packet number:  100
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00% 
+
+Data file name: h2_200_tos.log 
+Small packets: 
+	Total packet number:  400 
+	Correctly classified packet number: 393
+	Correct classified ratio: 98.25%
+
+Big packets:
+	Total packet number:  200
+	Correctly classified packet number: 200
+	Correct classified ratio: 100.00% 
+
+Data file name: h2_300_1_tos.log 
+Small packets: 
+	Total packet number:  600 
+	Correctly classified packet number: 584
+	Correct classified ratio: 97.33%
+
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 294
+	Correct classified ratio: 98.00% 
+
+Data file name: h2_400_tos.log 
+Small packets: 
+	Total packet number:  800 
+	Correctly classified packet number: 773
+	Correct classified ratio: 96.62%
+
+Big packets:
+	Total packet number:  400
+	Correctly classified packet number: 394
+	Correct classified ratio: 98.50% 
+
+Data file name: h2_500_tos.log 
+Small packets: 
+	Total packet number:  1000 
+	Correctly classified packet number: 959
+	Correct classified ratio: 95.90%
+
+Big packets:
+	Total packet number:  500
+	Correctly classified packet number: 487
+	Correct classified ratio: 97.40% 
+
+Data file name: h2_1000_tos.log 
+Small packets: 
+	Total packet number:  2000 
+	Correctly classified packet number: 1794
+	Correct classified ratio: 89.70%
+
+Big packets:
+	Total packet number:  1000
+	Correctly classified packet number: 924
+	Correct classified ratio: 92.40% 
+
