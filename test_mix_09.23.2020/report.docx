@@ -1,0 +1,205 @@
+		Testing Report with Mixed Samll Packets 
+Data file name: h2_50_mix_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00%
+
+Big packets:
+	Total packet number:  50
+	Correctly classified packet number: 50
+	Correct classified ratio: 100.00% 
+
+Random packets:
+	Total packet number:  30
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 6.67% 
+
+
+Data file name: h2_100_mix_tos.log 
+Small packets: 
+	Total packet number:  200 
+	Correctly classified packet number: 187
+	Correct classified ratio: 93.50%
+
+Big packets:
+	Total packet number:  100
+	Correctly classified packet number: 94
+	Correct classified ratio: 94.00% 
+
+Random packets:
+	Total packet number:  60
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h2_200_mix_tos.log 
+Small packets: 
+	Total packet number:  400 
+	Correctly classified packet number: 359
+	Correct classified ratio: 89.75%
+
+Big packets:
+	Total packet number:  200
+	Correctly classified packet number: 185
+	Correct classified ratio: 92.50% 
+
+Random packets:
+	Total packet number:  140
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 1.43% 
+
+
+Data file name: h2_300_mix_tos.log 
+Small packets: 
+	Total packet number:  600 
+	Correctly classified packet number: 569
+	Correct classified ratio: 94.83%
+
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 293
+	Correct classified ratio: 97.67% 
+
+Random packets:
+	Total packet number:  180
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h2_500_mix_tos.log 
+Small packets: 
+	Total packet number:  1000 
+	Correctly classified packet number: 890
+	Correct classified ratio: 89.00%
+
+Big packets:
+	Total packet number:  500
+	Correctly classified packet number: 456
+	Correct classified ratio: 91.20% 
+
+Random packets:
+	Total packet number:  300
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.33% 
+
+
+Data file name: h2_1000_mix_tos.log 
+Small packets: 
+	Total packet number:  2000 
+	Correctly classified packet number: 1895
+	Correct classified ratio: 94.75%
+
+Big packets:
+	Total packet number:  1000
+	Correctly classified packet number: 965
+	Correct classified ratio: 96.50% 
+
+Random packets:
+	Total packet number:  600
+	Wrongly classified packet number: 7
+	Wrongly classified ratio: 1.17% 
+
+
+Data file name: h2_50_mix_1_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00%
+
+Big packets:
+	Total packet number:  50
+	Correctly classified packet number: 50
+	Correct classified ratio: 100.00% 
+
+Random packets:
+	Total packet number:  30
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 3.33% 
+
+
+Data file name: h2_100_mix_1_tos.log 
+Small packets: 
+	Total packet number:  200 
+	Correctly classified packet number: 181
+	Correct classified ratio: 90.50%
+
+Big packets:
+	Total packet number:  100
+	Correctly classified packet number: 93
+	Correct classified ratio: 93.00% 
+
+Random packets:
+	Total packet number:  60
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h2_200_mix_1_tos.log 
+Small packets: 
+	Total packet number:  400 
+	Correctly classified packet number: 394
+	Correct classified ratio: 98.50%
+
+Big packets:
+	Total packet number:  200
+	Correctly classified packet number: 200
+	Correct classified ratio: 100.00% 
+
+Random packets:
+	Total packet number:  110
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.91% 
+
+
+Data file name: h2_300_mix_1_tos.log 
+Small packets: 
+	Total packet number:  600 
+	Correctly classified packet number: 593
+	Correct classified ratio: 98.83%
+
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 300
+	Correct classified ratio: 100.00% 
+
+Random packets:
+	Total packet number:  150
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h2_500_mix_1_tos.log 
+Small packets: 
+	Total packet number:  1000 
+	Correctly classified packet number: 891
+	Correct classified ratio: 89.10%
+
+Big packets:
+	Total packet number:  500
+	Correctly classified packet number: 474
+	Correct classified ratio: 94.80% 
+
+Random packets:
+	Total packet number:  250
+	Wrongly classified packet number: 5
+	Wrongly classified ratio: 2.00% 
+
+
+Data file name: h2_1000_mix_1_tos.log 
+Small packets: 
+	Total packet number:  2000 
+	Correctly classified packet number: 1899
+	Correct classified ratio: 94.95%
+
+Big packets:
+	Total packet number:  1000
+	Correctly classified packet number: 966
+	Correct classified ratio: 96.60% 
+
+Random packets:
+	Total packet number:  600
+	Wrongly classified packet number: 8
+	Wrongly classified ratio: 1.33% 
+
+
