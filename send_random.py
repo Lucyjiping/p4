@@ -25,8 +25,8 @@ def get_if():
 
 def main():
 
-    if len(sys.argv)<2:
-        print 'pass one arguments: <destination> "'
+    if len(sys.argv)<3:
+        print 'pass two arguments: <destination> and <packet number> "'
         exit(1)
 
     addr = socket.gethostbyname(sys.argv[1])
@@ -38,7 +38,7 @@ def main():
     pkt_s = pkt_t /"greet"
     pkt_l = pkt_t /"Really big world!"
     try:
-	for i in range(30):	
+	for i in range(int(sys.argv[2])):	
 		pkt_s.show2()
 		sendp(pkt_s, iface=iface)
 		sleep(random.random())
