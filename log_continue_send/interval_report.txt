@@ -4,7 +4,10 @@ Total packet number: 300
  1 tos = 0x9
  1 tos = 0xa
 
-ratio: 7/300 = 2.33% inerval time is larger than 60ms, 97.67% interval is less than 60ms.
+ratio: 
+ 7/300 = 2.33% inerval time is larger than 40ms, 97.67% interval is less than 40ms.
+ 2/300 = 0.667% interval time is larger than 60ms, 99.33% interval time is less
+than 60ms.
 
 File h2_1500.log
 Total packet number: 1500
@@ -12,5 +15,9 @@ Total packet number: 1500
 10 tos=0x9
 5 tos=oxa
 
-ratio: 34/1500 = 2.267% interval time is larger than 60ms, 97.713% interval time is less than 60ms
+ratio: 
+        34/1500 = 2.267% interval time is larger than 40ms, 97.713% interval time is less than 40ms
+        15/1500 = 1% interval time is larger than 60ms, 99% interval time is les
+s than 60ms.
+                                                              1,16          All
 
