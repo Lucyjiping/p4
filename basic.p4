@@ -124,60 +124,70 @@ control MyIngress(inout headers hdr,
    if(hdr.ipv4.diffserv == 0) {
 
     if(hdr.ipv4.totalLen == 45){
+
  	bit<48> small_pkt_time;
-	bit<48> large_pkt_time;
 	bit<48> pkt_interval_time;
 	packet_register.read(small_pkt_time, (bit<32>)0);
-	packet_register.read(large_pkt_time, (bit<32>)1);
-	
+		
 	if(small_pkt_time != 0){
-		if(small_pkt_time > large_pkt_time){
-			pkt_interval_time = standard_metadata.ingress_global_timestamp - small_pkt_time;
-		}
-		else{
-			pkt_interval_time = standard_metadata.ingress_global_timestamp - large_pkt_time;
-		}
-		if(pkt_interval_time > 30000 && pkt_interval_time < 80000){
+		
+		pkt_interval_time = standard_metadata.ingress_global_timestamp - small_pkt_time;
+		
+		if(pkt_interval_time > 20000 && pkt_interval_time < 40000){
 						
 			packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
 			hdr.ipv4.diffserv = 1;
 
-					}
+		}
+		else if(pkt_interval_time >=40000){
+			packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
+		}
 	}
 	else{
-		
-
 		packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
 		hdr.ipv4.diffserv = 1;
 	}
     }
     else if(hdr.ipv4.totalLen ==57){
+	bit<48> first_pkt_time_aFrame;
 	bit<48> large_pkt_time;
-	bit<48> pkt_interval_time;
-	packet_register.read(large_pkt_time, (bit<32>)1);
-	if(large_pkt_time != 0){
-		pkt_interval_time = standard_metadata.ingress_global_timestamp - large_pkt_time;
+	bit<48> interval_time_between_frames;
+	bit<48> interval_time_within_aFrame;
+	packet_register.read(first_pkt_time_aFrame, (bit<32>)1);
+	packet_register.read(large_pkt_time, (bit<32>)2);
+	if(first_pkt_time_aFrame != 0){
+		interval_time_within_aFrame = standard_metadata.ingress_global_timestamp - large_pkt_time;
+		interval_time_between_frames = standard_metadata.ingress_global_timestamp - first_pkt_time_aFrame;
 
-		if(pkt_interval_time > 90000 && pkt_interval_time < 240000){
+		if(interval_time_within_aFrame < 60000 && interval_time_between_frames < 120000){
+			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
+			hdr.ipv4.diffserv = 4;	
+		}
+
+		else if(interval_time_between_frames > 330000 && interval_time_between_frames < 660000){
 			packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
+			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
 			hdr.ipv4.diffserv = 3;
 			
 		}
-		else if(pkt_interval_time >= 240000){
+		else if(interval_time_between_frames >= 660000){
 			packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
+			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
 		}
 	}
 	else{
 				
 		packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);	
+		packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);	
 		hdr.ipv4.diffserv = 3;
 
-			}
+	}
 
     } 
     else if(hdr.ipv4.totalLen == 41) {
 	packet_register.write((bit<32>)0,(bit<48>)0);
-	packet_register.write((bit<32>)1,(bit<48>)0); 
+	packet_register.write((bit<32>)1,(bit<48>)0);
+	packet_register.write((bit<32>)2,(bit<48>)0);  
     }
    }
 
@@ -243,5 +253,6 @@ MyEgress(),
 MyComputeChecksum(),
 MyDeparser()
 ) main;
+
 
 
