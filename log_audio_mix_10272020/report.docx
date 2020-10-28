@@ -1,0 +1,49 @@
+Test Report with Mixed Packets 
+Data file name: h2_audio_mix_100_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00%
+
+Random packets:
+	Total packet number:  50
+	Wrongly classified packet number: 12
+	Wrongly classified ratio: 24.00% 
+
+
+Data file name: h2_audio_mix_300_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 300
+	Correct classified ratio: 100.00%
+
+Random packets:
+	Total packet number:  129
+	Wrongly classified packet number: 27
+	Wrongly classified ratio: 20.93% 
+
+
+Data file name: h2_audio_mix_500_tos.log 
+Small packets: 
+	Total packet number:  500 
+	Correctly classified packet number: 500
+	Correct classified ratio: 100.00%
+
+Random packets:
+	Total packet number:  200
+	Wrongly classified packet number: 53
+	Wrongly classified ratio: 26.50% 
+
+
+Data file name: h2_audio_mix_700_tos.log 
+Small packets: 
+	Total packet number:  700 
+	Correctly classified packet number: 699
+	Correct classified ratio: 99.86%
+
+Random packets:
+	Total packet number:  302
+	Wrongly classified packet number: 65
+	Wrongly classified ratio: 21.52% 
+
+
