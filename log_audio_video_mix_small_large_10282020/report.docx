@@ -1,0 +1,69 @@
+h2_audio_video_mix_small_large_Test Report with Mixed Packets 
+Data file name: h2_audio_video_mix_small_large_100_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 286
+	Correct classified ratio: 95.33%
+
+Big packets:
+	Total packet number:  600
+	Correctly classified packet number: 583
+	Correct classified ratio: 97.17% 
+
+Random packets:
+	Total packet number:  164
+	Wrongly classified packet number: 18
+	Wrongly classified ratio: 10.98% 
+
+
+Data file name: h2_audio_video_mix_small_large_300_tos.log 
+Small packets: 
+	Total packet number:  900 
+	Correctly classified packet number: 857
+	Correct classified ratio: 95.22%
+
+Big packets:
+	Total packet number:  1800
+	Correctly classified packet number: 1764
+	Correct classified ratio: 98.00% 
+
+Random packets:
+	Total packet number:  503
+	Wrongly classified packet number: 61
+	Wrongly classified ratio: 12.13% 
+
+
+Data file name: h2_audio_video_mix_small_large_500_tos.log 
+Small packets: 
+	Total packet number:  1500 
+	Correctly classified packet number: 1445
+	Correct classified ratio: 96.33%
+
+Big packets:
+	Total packet number:  3000
+	Correctly classified packet number: 2939
+	Correct classified ratio: 97.97% 
+
+Random packets:
+	Total packet number:  843
+	Wrongly classified packet number: 105
+	Wrongly classified ratio: 12.46% 
+
+
+Data file name: h2_audio_video_mix_small_large_700_tos.log 
+Small packets: 
+	Total packet number:  2100 
+	Correctly classified packet number: 1988
+	Correct classified ratio: 94.67%
+
+Big packets:
+	Total packet number:  4200
+	Correctly classified packet number: 4077
+	Correct classified ratio: 97.07% 
+
+Random packets:
+	Total packet number:  1189
+	Wrongly classified packet number: 148
+	Wrongly classified ratio: 12.45% 
+
+
