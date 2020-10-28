@@ -1,0 +1,6 @@
+Small packet correct classified ratio are:
+
+100.0%, 98.67%, 99.8%, 100.0%
+
+Small packet average correctly classified ratio: 99.62% 
+

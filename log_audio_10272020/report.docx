@@ -1,0 +1,25 @@
+		Audio Test Report without Mixed Packets 
+Data file name: h2_audio_100_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00%
+
+Data file name: h2_audio_300_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 296
+	Correct classified ratio: 98.67%
+
+Data file name: h2_audio_500_tos.log 
+Small packets: 
+	Total packet number:  500 
+	Correctly classified packet number: 499
+	Correct classified ratio: 99.80%
+
+Data file name: h2_audio_700_tos.log 
+Small packets: 
+	Total packet number:  700 
+	Correctly classified packet number: 700
+	Correct classified ratio: 100.00%
+
