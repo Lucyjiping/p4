@@ -1,0 +1,25 @@
+     Test Report without Mixed Packets 
+Data file name: h2_video_100_tos.log 
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 300
+	Correct classified ratio: 100.00% 
+
+Data file name: h2_video_300_tos.log 
+Big packets:
+	Total packet number:  900
+	Correctly classified packet number: 898
+	Correct classified ratio: 99.78% 
+
+Data file name: h2_video_500_tos.log 
+Big packets:
+	Total packet number:  1500
+	Correctly classified packet number: 1486
+	Correct classified ratio: 99.07% 
+
+Data file name: h2_video_700_tos.log 
+Big packets:
+	Total packet number:  2100
+	Correctly classified packet number: 2063
+	Correct classified ratio: 98.24% 
+

@@ -1,0 +1,12 @@
+Big packet correct classified ratio are :
+
+98.67%, 99.33%, 98.13%, 99.14%
+
+Random packet wrongly classified ratio are: 
+
+39.02%, 39.0%, 39.34%, 36.04%
+
+Big packet average correctly classified ratio: 98.82%
+
+Random packet average wrongly classified ratio: 38.35%
+
