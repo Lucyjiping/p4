@@ -36,11 +36,11 @@ def main():
     pkt_t =  Ether(src=get_if_hwaddr(iface), dst='ff:ff:ff:ff:ff:ff')
     pkt_t = pkt_t /IP(dst=addr) / TCP(dport=1234, sport=random.randint(49152,65535)) 
     pkt_s = pkt_t /"greet"
-    pkt_l = pkt_t /"Really big world!"
+    pkt_l = pkt_t /"Merry Christmas!!"
     try:
 	for i in range(int(sys.argv[1])):	
-		pkt_s.show2()
-		sendp(pkt_s, iface=iface)
+		pkt_l.show2()
+		sendp(pkt_l, iface=iface)
 		sleep(random.random())
     except KeyboardInterrupt:
         raise
