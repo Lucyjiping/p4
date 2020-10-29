@@ -1,0 +1,45 @@
+h2_audio_video_Test Report without Mixed Packets 
+Data file name: h2_audio_video_100_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 291
+	Correct classified ratio: 97.00%
+
+Big packets:
+	Total packet number:  600
+	Correctly classified packet number: 591
+	Correct classified ratio: 98.50% 
+
+Data file name: h2_audio_video_300_tos.log 
+Small packets: 
+	Total packet number:  900 
+	Correctly classified packet number: 864
+	Correct classified ratio: 96.00%
+
+Big packets:
+	Total packet number:  1800
+	Correctly classified packet number: 1768
+	Correct classified ratio: 98.22% 
+
+Data file name: h2_audio_video_500_tos.log 
+Small packets: 
+	Total packet number:  1500 
+	Correctly classified packet number: 1418
+	Correct classified ratio: 94.53%
+
+Big packets:
+	Total packet number:  3000
+	Correctly classified packet number: 2910
+	Correct classified ratio: 97.00% 
+
+Data file name: h2_audio_video_700_tos.log 
+Small packets: 
+	Total packet number:  2100 
+	Correctly classified packet number: 2012
+	Correct classified ratio: 95.81%
+
+Big packets:
+	Total packet number:  4200
+	Correctly classified packet number: 4105
+	Correct classified ratio: 97.74% 
+
