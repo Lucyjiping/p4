@@ -1,0 +1,25 @@
+Tests Report  
+Data file name: h3_video_100_tos.log 
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 300
+	Correct classified ratio: 100.00% 
+
+Data file name: h3_video_300_tos.log 
+Big packets:
+	Total packet number:  900
+	Correctly classified packet number: 898
+	Correct classified ratio: 99.78% 
+
+Data file name: h3_video_500_tos.log 
+Big packets:
+	Total packet number:  1500
+	Correctly classified packet number: 1485
+	Correct classified ratio: 99.00% 
+
+Data file name: h3_video_700_tos.log 
+Big packets:
+	Total packet number:  2100
+	Correctly classified packet number: 2072
+	Correct classified ratio: 98.67% 
+

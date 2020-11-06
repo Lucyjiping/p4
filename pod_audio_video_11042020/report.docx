@@ -1,0 +1,45 @@
+h3_audio_video_Tests Report  
+Data file name: h3_audio_video_100_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 283
+	Correct classified ratio: 94.33%
+
+Big packets:
+	Total packet number:  600
+	Correctly classified packet number: 569
+	Correct classified ratio: 94.83% 
+
+Data file name: h3_audio_video_300_tos.log 
+Small packets: 
+	Total packet number:  900 
+	Correctly classified packet number: 862
+	Correct classified ratio: 95.78%
+
+Big packets:
+	Total packet number:  1800
+	Correctly classified packet number: 1739
+	Correct classified ratio: 96.61% 
+
+Data file name: h3_audio_video_500_tos.log 
+Small packets: 
+	Total packet number:  1500 
+	Correctly classified packet number: 1405
+	Correct classified ratio: 93.67%
+
+Big packets:
+	Total packet number:  3000
+	Correctly classified packet number: 2914
+	Correct classified ratio: 97.13% 
+
+Data file name: h3_audio_video_700_tos.log 
+Small packets: 
+	Total packet number:  2100 
+	Correctly classified packet number: 1932
+	Correct classified ratio: 92.00%
+
+Big packets:
+	Total packet number:  4200
+	Correctly classified packet number: 3995
+	Correct classified ratio: 95.12% 
+
