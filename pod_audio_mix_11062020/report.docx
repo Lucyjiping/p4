@@ -1,0 +1,49 @@
+h3_audio_mix_Tests Report  
+Data file name: h3_audio_mix_100_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 98
+	Correct classified ratio: 98.00%
+
+Random packets:
+	Total packet number:  49
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 4.08% 
+
+
+Data file name: h3_audio_mix_300_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 283
+	Correct classified ratio: 94.33%
+
+Random packets:
+	Total packet number:  128
+	Wrongly classified packet number: 17
+	Wrongly classified ratio: 13.28% 
+
+
+Data file name: h3_audio_mix_500_tos.log 
+Small packets: 
+	Total packet number:  500 
+	Correctly classified packet number: 468
+	Correct classified ratio: 93.60%
+
+Random packets:
+	Total packet number:  217
+	Wrongly classified packet number: 30
+	Wrongly classified ratio: 13.82% 
+
+
+Data file name: h3_audio_mix_700_tos.log 
+Small packets: 
+	Total packet number:  700 
+	Correctly classified packet number: 648
+	Correct classified ratio: 92.57%
+
+Random packets:
+	Total packet number:  301
+	Wrongly classified packet number: 50
+	Wrongly classified ratio: 16.61% 
+
+

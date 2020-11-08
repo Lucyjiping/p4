@@ -1,0 +1,49 @@
+h3_video_mix_Tests Report  
+Data file name: h3_video_mix_100_tos.log 
+Big packets:
+	Total packet number:  300
+	Correctly classified packet number: 290
+	Correct classified ratio: 96.67% 
+
+Random packets:
+	Total packet number:  79
+	Wrongly classified packet number: 38
+	Wrongly classified ratio: 48.10% 
+
+
+Data file name: h3_video_mix_300_tos.log 
+Big packets:
+	Total packet number:  900
+	Correctly classified packet number: 870
+	Correct classified ratio: 96.67% 
+
+Random packets:
+	Total packet number:  218
+	Wrongly classified packet number: 121
+	Wrongly classified ratio: 55.50% 
+
+
+Data file name: h3_video_mix_500_tos.log 
+Big packets:
+	Total packet number:  1500
+	Correctly classified packet number: 1430
+	Correct classified ratio: 95.33% 
+
+Random packets:
+	Total packet number:  387
+	Wrongly classified packet number: 209
+	Wrongly classified ratio: 54.01% 
+
+
+Data file name: h3_video_mix_700_tos.log 
+Big packets:
+	Total packet number:  2100
+	Correctly classified packet number: 2011
+	Correct classified ratio: 95.76% 
+
+Random packets:
+	Total packet number:  513
+	Wrongly classified packet number: 254
+	Wrongly classified ratio: 49.51% 
+
+

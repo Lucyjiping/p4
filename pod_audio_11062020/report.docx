@@ -1,0 +1,25 @@
+h3_audio_Tests Report  
+Data file name: h3_audio_100_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 100
+	Correct classified ratio: 100.00%
+
+Data file name: h3_audio_300_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 300
+	Correct classified ratio: 100.00%
+
+Data file name: h3_audio_500_tos.log 
+Small packets: 
+	Total packet number:  500 
+	Correctly classified packet number: 498
+	Correct classified ratio: 99.60%
+
+Data file name: h3_audio_700_tos.log 
+Small packets: 
+	Total packet number:  700 
+	Correctly classified packet number: 694
+	Correct classified ratio: 99.14%
+
