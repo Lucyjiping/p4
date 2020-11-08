@@ -112,17 +112,19 @@ control MyIngress(inout headers hdr,
         default_action = NoAction();
     }
 
-/*  action set_tos(bit<8> tos){
-	hdr.ipv4.diffserv = tos;
-    }
-*/
-
      
     apply {
 	if(hdr.ipv4.isValid()){
-
-   if(hdr.ipv4.diffserv == 0) {
-
+    		if(hdr.ipv4.diffserv == 0){
+			hdr.ipv4.diffserv = 2;
+		}
+		else if(hdr.ipv4.diffserv == 2){
+			hdr.ipv4.diffserv = 5;
+		}
+		else if (hdr.ipv4.diffserv == 5){
+			hdr.ipv4.diffserv = 6;
+		}
+    if(hdr.ipv4.diffserv == 6){ 
     if(hdr.ipv4.totalLen == 45){
 
  	bit<48> small_pkt_time;
@@ -133,13 +135,13 @@ control MyIngress(inout headers hdr,
 		
 		pkt_interval_time = standard_metadata.ingress_global_timestamp - small_pkt_time;
 		
-		if(pkt_interval_time > 20000 && pkt_interval_time < 40000){
+		if(pkt_interval_time > 200000 && pkt_interval_time < 400000){
 						
 			packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
 			hdr.ipv4.diffserv = 1;
 
 		}
-		else if(pkt_interval_time >=40000){
+		else if(pkt_interval_time >=400000){
 			packet_register.write((bit<32>)0, standard_metadata.ingress_global_timestamp);
 		}
 	}
@@ -159,18 +161,18 @@ control MyIngress(inout headers hdr,
 		interval_time_within_aFrame = standard_metadata.ingress_global_timestamp - large_pkt_time;
 		interval_time_between_frames = standard_metadata.ingress_global_timestamp - first_pkt_time_aFrame;
 
-		if(interval_time_within_aFrame < 60000 && interval_time_between_frames < 120000){
+		if(interval_time_within_aFrame < 90000 && interval_time_between_frames < 120000){
 			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
 			hdr.ipv4.diffserv = 4;	
 		}
 
-		else if(interval_time_between_frames > 330000 && interval_time_between_frames < 660000){
+		else if(interval_time_between_frames > 300000 && interval_time_between_frames < 600000){
 			packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
 			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
 			hdr.ipv4.diffserv = 3;
 			
 		}
-		else if(interval_time_between_frames >= 660000){
+		else if(interval_time_between_frames >= 600000){
 			packet_register.write((bit<32>)1, standard_metadata.ingress_global_timestamp);
 			packet_register.write((bit<32>)2, standard_metadata.ingress_global_timestamp);
 		}
