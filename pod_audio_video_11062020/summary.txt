@@ -1,0 +1,12 @@
+Small packet correct classified ratio are:
+
+97.33%, 92.22%, 91.47%, 94.57%
+
+Big packet correct classified ratio are :
+
+99.17%, 95.72%, 95.3%, 97.45%
+
+Small packet average correctly classified ratio: 93.90% 
+
+Big packet average correctly classified ratio: 96.91%
+
