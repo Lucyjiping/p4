@@ -25,11 +25,11 @@ def get_if():
 
 def main():
 
-    if len(sys.argv)<2:
-        print 'pass two arguments:  and <packet number> "'
+    if len(sys.argv)<3:
+        print 'pass two arguments: <destination> and <packet number> "'
         exit(1)
 
-    addr = socket.gethostbyname("10.0.2.2")
+    addr = socket.gethostbyname(sys.argv[1])
     iface = get_if()
 
     print "sending on interface %s to %s" % (iface, str(addr))
@@ -37,10 +37,16 @@ def main():
     pkt_t = pkt_t /IP(dst=addr) / TCP(dport=1234, sport=random.randint(49152,65535)) 
     pkt_s = pkt_t /"greet"
     pkt_l = pkt_t /"Merry Christmas!!"
+    pkt_r = pkt_t /"A random packet"
     try:
-	for i in range(int(sys.argv[1])):	
-		pkt_l.show2()
-		sendp(pkt_l, iface=iface)
+	for i in range(int(sys.argv[2])):
+		num = random.randint(1,15)
+		if num > 5 and num < 13 :
+			pkt_l.show2()
+			sendp(pkt_l, iface=iface)
+		else:		
+			pkt_r.show2()
+			sendp(pkt_r, iface=iface)
 		sleep(random.random())
     except KeyboardInterrupt:
         raise
