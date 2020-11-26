@@ -1,0 +1,5479 @@
+sniffing on eth0
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x4
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637b
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637d
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0xad06
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'A random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:04:41
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x3
+     len       = 57
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x637e
+     src       = 10.0.2.21
+     dst       = 10.0.4.41
+     \options   \
+###[ TCP ]###
+        sport     = 53552
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3bd0
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'Merry Christmas!!'

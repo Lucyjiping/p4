@@ -1,0 +1,109 @@
+hTests Report  
+Data file name: h3_100_tos.log 
+Small packets: 
+	Total packet number:  100 
+	Correctly classified packet number: 99
+	Correct classified ratio: 99.00%
+
+Data file name: h3_300_tos.log 
+Small packets: 
+	Total packet number:  300 
+	Correctly classified packet number: 297
+	Correct classified ratio: 99.00%
+
+Data file name: h3_500_tos.log 
+Small packets: 
+	Total packet number:  500 
+	Correctly classified packet number: 496
+	Correct classified ratio: 99.20%
+
+Data file name: h3_700_tos.log 
+Small packets: 
+	Total packet number:  700 
+	Correctly classified packet number: 689
+	Correct classified ratio: 98.43%
+
+Data file name: h31_100_tos.log 
+Random packets:
+	Total packet number:  48
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 4.17% 
+
+
+Data file name: h31_300_tos.log 
+Random packets:
+	Total packet number:  130
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h31_500_tos.log 
+Random packets:
+	Total packet number:  229
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.44% 
+
+
+Data file name: h31_700_tos.log 
+Random packets:
+	Total packet number:  313
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.32% 
+
+
+Data file name: h4_100_tos.log 
+Random packets:
+	Total packet number:  48
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 2.08% 
+
+
+Data file name: h4_300_tos.log 
+Random packets:
+	Total packet number:  118
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 1.69% 
+
+
+Data file name: h4_500_tos.log 
+Random packets:
+	Total packet number:  218
+	Wrongly classified packet number: 2
+	Wrongly classified ratio: 0.92% 
+
+
+Data file name: h4_700_tos.log 
+Random packets:
+	Total packet number:  308
+	Wrongly classified packet number: 5
+	Wrongly classified ratio: 1.62% 
+
+
+Data file name: h41_100_tos.log 
+Random packets:
+	Total packet number:  47
+	Wrongly classified packet number: 0
+	Wrongly classified ratio: 0.00% 
+
+
+Data file name: h41_300_tos.log 
+Random packets:
+	Total packet number:  131
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.76% 
+
+
+Data file name: h41_500_tos.log 
+Random packets:
+	Total packet number:  218
+	Wrongly classified packet number: 1
+	Wrongly classified ratio: 0.46% 
+
+
+Data file name: h41_700_tos.log 
+Random packets:
+	Total packet number:  307
+	Wrongly classified packet number: 4
+	Wrongly classified ratio: 1.30% 
+
+

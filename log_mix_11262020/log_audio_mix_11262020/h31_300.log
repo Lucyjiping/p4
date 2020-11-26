@@ -1,0 +1,4291 @@
+sniffing on eth0
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 45
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x659a
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x3de1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'greet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:03:34
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x6
+     len       = 55
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 61
+     proto     = tcp
+     chksum    = 0x6590
+     src       = 10.0.1.12
+     dst       = 10.0.3.31
+     \options   \
+###[ TCP ]###
+        sport     = 62503
+        dport     = 1234
+        seq       = 0
+        ack       = 0
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = S
+        window    = 8192
+        chksum    = 0x6c22
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'a random packet'
